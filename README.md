@@ -18,6 +18,8 @@ dpkg --print-architecture | grep -q "amd64" && export ARCH="amd64" || export ARC
 
 The provided `Dockerfile` installs the analysis engine into a minimal Ubuntu image with the libraries required to run the analysis engine.
 It then copies the sample JPG images into the container so you can experiment with the analysis engine.
+* The `sample-images` directory contains a set of prepared samples to use for testing. The file names indicate the expected result from the analysis engine
+* The `sample-base64` directory contains base64 encodings of the sample JPGs in the `sample-images` directory.
 
 You can clone this repository, build the container and run it.
 ```bash
