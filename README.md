@@ -7,8 +7,8 @@ To run the analysis engine:
 ```bash
 ./overflowengine --input image_location --output output_location.txt
 ```
-* The `--input` parameter is the location of the image (**only jpg**) to be analysed.
-* The `--output` parameter is the location of a text file to hold the analysis result.
+* The `--input` parameter is the absolute or relative location of the image (**only jpg**) to be analysed.
+* The `--output` parameter is the absolute or relative location of a text file to hold the analysis result.
 
 To install the analysis engine inside a Docker container:
 
